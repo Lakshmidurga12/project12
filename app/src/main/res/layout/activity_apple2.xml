@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apple2">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="613dp"
+        android:text="MacBookAir13"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="228dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="8dp"
+        android:text="Apple M2 chip
+
+8-core CPU with 4 performance cores and 4 efficiency cores
+8-core GPU
+16-core Neural Engine
+100GB/s memory bandwidth"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="228dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="36dp"
+        android:text="Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW
+Video decode engine
+Video encode engine
+ProRes encode and decode engine"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="259dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="41dp"
+        android:text="Liquid Retina display
+
+34.46 cm / 13.6” (diagonal) LED-backlit display with IPS technology;1
+2560x1664 native resolution at 224 pixels per inch
+500 nits brightness
+Colour
+
+Support for 1 billion colours
+Wide colour (P3)
+True Tone technology
+"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="165dp"
+        android:onClick="viewdetails1"
+        android:text="View Details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <Button
+        android:id="@+id/reviewyoutubelink2"
+        android:layout_width="194dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="reviewyoutubelink"
+        android:text="Review youtube link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

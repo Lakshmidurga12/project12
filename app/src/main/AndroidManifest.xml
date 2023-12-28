@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/laptopicon"
+        android:label="laptopdetails"
+         android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project1"
+        tools:targetApi="31">
+        <activity
+            android:name=".lenovo4"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".lenovo3"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".lenovo2"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".lenovo1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".dell4"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".dell3"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".dell2"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".dell1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".hp4"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".hp3"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".hp2"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".hp1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".lenovomodel"
+            android:exported="true" />
+        <activity
+            android:name=".dellmodel"
+            android:exported="true" />
+        <activity
+            android:name=".hpmodel"
+            android:exported="true" />
+        <activity
+            android:name=".apple4"
+            android:exported="true" />
+        <activity
+            android:name=".apple3"
+            android:exported="true" />
+        <activity
+            android:name=".apple2"
+            android:exported="true" />
+        <activity
+            android:name=".apple1"
+            android:exported="true" />
+        <activity
+            android:name=".applemodel"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

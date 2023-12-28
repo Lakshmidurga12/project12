@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apple1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="167dp"
+        android:layout_height="80dp"
+        android:text="MacBook Air 15"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="243dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="300dp"
+        android:text="Chip
+Apple M2 chip
+
+8-core CPU with 4 performance cores and 4 efficiency cores
+10-core GPU
+16-core Neural Engine
+100GB/s memory bandwidth"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/buttonapple"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="116dp"
+        android:onClick="Buttonapple"
+        android:text="View Details"
+
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonappleyoutube"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="Buttonappleyoutube"
+        android:text="Review youtube link"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="296dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="140dp"
+        android:text="Media engine
+
+Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW
+Video decode engine
+Video encode engine
+ProRes encode and decode engine"
+        android:textColor="@android:color/holo_blue_light"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonapple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.254" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="237dp"
+        android:layout_height="121dp"
+        android:text="Display
+Liquid Retina display
+
+15.3-inch (diagonal) LED-backlit display with IPS technology;1 2880-by-1864 native resolution at 224 pixels per inch 500 nits brightness"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonapple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.294" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
